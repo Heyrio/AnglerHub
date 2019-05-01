@@ -1,6 +1,6 @@
 body{
     
-    background: #007ACC;
+    background: gray;
 }
 h2{
     font-size: 18px;
@@ -8,15 +8,17 @@ h2{
     color: #575ed8;
 }
 
-#mario-chat{
+#fish-chat{
+    border-radius: 40px 40px 0px 0px;
     max-width: 600px;
     margin: 30px auto;
     border: 1px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
-    border-radius: 2px;
+   
 }
 
 #chat-window{
+    border-radius: 40px 40px 0px 0px;
     height: 400px;
     overflow: auto;
     background: #f9f9f9;
@@ -66,4 +68,12 @@ button{
     padding: 12px 0;
     width: 100%;
     border-radius: 0 0 2px 2px;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    color: darkgreen;
+    font-size: 4em;
 }
