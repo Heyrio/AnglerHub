@@ -1,0 +1,9 @@
+body{
+    background: #0bc855;
+}
+
+.upload{
+    display: flex;
+    justify-content: center;
+    
+}

@@ -1,0 +1,61 @@
+body{
+	background-color: #232323;
+}
+
+#logo{
+	display: flex;
+	justify-content: center;
+}
+
+#hd {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	padding: 0;
+
+}
+
+#signUp{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.card{
+
+	background-color: transparent;
+	color: white;
+}
+
+.card-img-top {
+	border-radius: 20px;
+    height: 15rem;
+    object-fit: cover;
+
+}
+
+.form-horizontal{
+	padding-left: 10%;
+}
+
+
+#mem{
+	margin-top: 5%;
+}
+
+hr{
+	width: 50%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+}
+
+#btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+
+}

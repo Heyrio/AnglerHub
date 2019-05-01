@@ -1,0 +1,37 @@
+I broke down the problem into these steps. Although each problem can always be broken down further.
+
+Setting up your VM and deploying your Backend
+Deploying your Frontend
+Getting the Two Applications Communicating
+Pointing your Domain Name
+
+
+Features:(FEATURES ARE WHATS IMPORTANT!)
+
+1.) USER LOGIN
+
+2.) UPLOAD A PICTURE OF A FISH
+
+3.) DROP A PIN OR GPS LOCATION OF WHERE THEY CAUGH THE FISH 
+ 
+4.) POST COMMENTS
+
+5.) liking pictures
+
+Misc ideas:
+
+homepage will just be a group of fishing pictures people can like
+if they click on it 
+
+
+#1fcf6d I like this color 
+
+
+!Important idea about posting pictures.
+
+1.)User uploads image
+2.) query string is sent
+3.) convert query string to base 64 URi
+4.) Store in Json data 
+
+5.) have all json data images load on start up
