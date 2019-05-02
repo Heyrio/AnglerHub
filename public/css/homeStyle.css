@@ -1,5 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: gray;
+    color: white;
 }
 
 .upload{
@@ -12,4 +19,39 @@ body{
     height: 500px;
      object-fit: cover;
     
+}
+
+.social-media-bar{
+    padding: 10px;
+    height: 150px;
+    background-color: #232323;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.cons{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+
+i{
+    margin-right: 20px;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+.fa-twitter{
+    color: #55ADED;
 }
