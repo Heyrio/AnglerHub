@@ -22,7 +22,7 @@ body{
 }
 
 .social-media-bar{
-    padding: 10px;
+    padding: 5px;
     height: 150px;
     background-color: #232323;
     white-space: nowrap; 
@@ -43,6 +43,7 @@ h1{
 
 i{
     margin-right: 20px;
+    cursor: pointer;
 }
 .fa-facebook{
     color: #4267B2;
@@ -54,4 +55,9 @@ i{
 
 .fa-twitter{
     color: #55ADED;
+}
+
+.main-box{
+    padding: 50px;
+    
 }

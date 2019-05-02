@@ -32,7 +32,7 @@ hr{
 #btn{
 	display: flex;
 	justify-content: center;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-bottom: 5vh;
 
 }
@@ -43,4 +43,21 @@ hr{
 	background-size: contain;
 	background-position: center;
 	height: 500px;
+	border-radius: 10px;
 }
+
+.btn-primary{
+	background-color: rgba(0, 0, 0 , 0);
+	outline: none;
+	border: none;
+	font-size: 2em;
+}
+
+.btn-primary:hover{
+	background-color: rgba(0, 0, 0 , 0);
+	outline: none;
+	border: none;
+	font-size: 2em;
+	color: #01c481;
+}
+
